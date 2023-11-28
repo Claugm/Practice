@@ -12,12 +12,24 @@
   position: relative;
 }
 
-.grey-box{
+.grey-box, .bottom-box {
   width: 100vw;
-  height: 20vh;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grey-box {
+  height: 20vh;
   position: absolute;
   top: 20%;
+}
+
+.bottom-box {
+  height: 10vh;
+  position: absolute;
+  top: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo-container {
@@ -35,4 +47,9 @@
 .company-name {
   color: white;
   font-size: 10vh;
+}
+
+.swipe-up {
+  color: white;
+  font-size: 3vh;
 }
