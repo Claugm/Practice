@@ -1,6 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .banner {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/suf-background.jpg);
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.grey-box{
+  width: 100vw;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 20%;
+}
+
+.logo-container {
   height: 100%;
-  background-image: url(../images/suf-background.jpg);
-  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh 25%;
+}
+
+.logo {
+  height: 100%;
+}
+
+.company-name {
+  color: white;
+  font-size: 10vh;
 }
