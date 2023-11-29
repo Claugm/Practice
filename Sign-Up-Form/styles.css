@@ -70,7 +70,7 @@
 }
 
 .main-message {
-  font-size: 40px;
+  font-size: 1.5em;
   margin-bottom: 250px;
 }
 
@@ -95,7 +95,7 @@ form {
 }
 
 label {
-  font-size: 30px;
+  font-size: 1em;
 }
 
 input {
@@ -105,7 +105,7 @@ input {
 }
 
 input[type=submit] {
-  font-size: 30px;
+  font-size: 1em;
   font-weight: bold;
   width: 25%;
 }
