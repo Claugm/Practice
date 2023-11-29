@@ -15,17 +15,16 @@
 .grey-box, .bottom-box {
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
 }
 
 .grey-box {
   height: 20vh;
-  position: absolute;
   top: 20%;
 }
 
 .bottom-box {
   height: 10vh;
-  position: absolute;
   top: 80%;
   display: flex;
   align-items: center;
@@ -44,12 +43,14 @@
   height: 100%;
 }
 
-.company-name {
+.company-name, .swipe-up {
   color: white;
+}
+
+.company-name {
   font-size: 10vh;
 }
 
 .swipe-up {
-  color: white;
   font-size: 3vh;
 }
