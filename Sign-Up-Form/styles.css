@@ -14,13 +14,14 @@
 
 .grey-box, .bottom-box {
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .grey-box {
   height: 20vh;
   top: 20%;
+
 }
 
 .bottom-box {
