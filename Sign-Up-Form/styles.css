@@ -54,3 +54,58 @@
 .swipe-up {
   font-size: 3vh;
 }
+
+.main-body {
+  width: 100vw;
+  padding: 35px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-message, .inputs-container, .first-name, .last-name, .email, .phone-number, .password, .confirm-password, .input-box {
+  width: 100%;
+}
+
+.main-message {
+  font-size: 40px;
+  margin-bottom: 250px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border: 2px darkgrey solid;
+  background-color: lightgray;
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  border: 2px black solid;
+}
+
+input[type=submit] {
+  font-size: 30px;
+  font-weight: bold;
+  width: 25%;
+}
