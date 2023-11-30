@@ -49,7 +49,9 @@
 }
 
 .company-name {
-  font-size: 10vh;
+  font-size: 6.5em;
+  text-align: center;
+  padding: 3%;
 }
 
 .swipe-up {
