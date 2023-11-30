@@ -111,6 +111,7 @@ form {
 
 label {
   font-size: 1.2rem;
+  color: white;
   text-shadow: 0 0 5px black;
 }
 
@@ -123,10 +124,25 @@ input {
 }
 
 input[type=submit] {
-  font-size: 1em;
+  font-size: 1.2rem;
   font-weight: bold;
   width: 75%;
   margin: 10px;
   background-color: #858e9f;
   box-shadow: 1px 1px black;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.already-message {
+  font-size: 1.2rem; 
+  color: white;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: white;
 }
