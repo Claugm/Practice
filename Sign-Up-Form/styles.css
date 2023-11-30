@@ -66,6 +66,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #F4C289;
 }
 
 .main-message, .inputs-container, .first-name, .last-name, .email, .phone-number, .password, .confirm-password, .input-box {
@@ -74,27 +75,36 @@
 
 .main-message {
   font-size: 1.5em;
-  margin-bottom: 250px;
 }
 
 .inputs-container {
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAAD56;
+  border: 2px black solid;
+}
+
+.form-start {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 .input-box {
   display: flex;
   flex-direction: column;
   padding: 25px;
-  border: 2px darkgrey solid;
-  background-color: lightgray;
+  border: 1px black solid;
 }
 
 label {
@@ -105,10 +115,15 @@ input {
   height: 50px;
   width: 100%;
   border: 2px black solid;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 input[type=submit] {
   font-size: 1em;
   font-weight: bold;
-  width: 25%;
+  width: 75%;
+  margin: 10px;
+  background-color: #FAAD56;
+  box-shadow: 1px 1px black;
 }
