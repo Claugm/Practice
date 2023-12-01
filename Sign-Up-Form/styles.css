@@ -118,9 +118,14 @@ label {
 input {
   height: 50px;
   width: 100%;
-  border: 2px black solid;
+  border: 2px #E5E7EB solid;
   font-size: 1.5rem;
   font-weight: 200;
+}
+
+input:focus {
+  border: 2px blue solid;
+  box-shadow: 2px 2px black;
 }
 
 input[type=submit] {
@@ -134,6 +139,10 @@ input[type=submit] {
   text-shadow: 0 0 5px black;
 }
 
+input[type=submit]:focus {
+  border: none;
+}
+
 .already-message {
   font-size: 1.2rem; 
   color: white;
@@ -145,4 +154,8 @@ input[type=submit] {
 
 a {
   color: white;
+}
+
+.error {
+  border: 2px red solid;
 }
