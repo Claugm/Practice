@@ -13,7 +13,7 @@
 }
 
 .grey-box, .bottom-box {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -156,6 +156,22 @@ a {
   color: white;
 }
 
-.error {
-  border: 2px red solid;
+@media screen and (min-width: 600px) {
+  .banner {
+    width: 40%;
+  }
+
+  body { 
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-body {
+    width: 60%;
+  }
+
+  .inputs-container {
+    width: 100%;
+  }
+
 }
