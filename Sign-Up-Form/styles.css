@@ -172,6 +172,15 @@ a {
 
   .inputs-container {
     width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
+  .swipe-up, .bottom-box, .empty {
+    visibility: hidden;
+  }
+
+  label {
+    font-size: 1rem;
+  }
 }
