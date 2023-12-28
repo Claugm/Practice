@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
   grid-template-rows: 1fr 1fr;
 }
 
-.dash-icon {
+.white-icon {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(247deg) brightness(105%) contrast(102%);
 }
 
@@ -51,12 +52,22 @@ a {
   justify-self: left;
 }
 
+.main-logo {
+  width: 3rem;
+}
+
 .menu, .extra-menu {
   display: grid;
   grid-template-columns: 1fr 6fr;
-  padding: 1.5rem;
+  padding: 1rem;
   gap: 15px;
   font-size: 1.5rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.menu-icon {
+  width: 1.5rem;
 }
 
 .topnav {
